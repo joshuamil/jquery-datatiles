@@ -13,6 +13,22 @@
   overflow: auto;
 }
 
+/* Define Heights based on Counts */
+
+.tile-ct-10 .datatile{
+  height: 25%;
+}
+
+.tile-ct-6 .datatile{
+  height: 33.333333%;
+}
+
+.tile-ct-4 .datatile{
+  height: 50%;
+}
+
+/* Set Default Tile Sizes */
+
 .jq-datatiles .datatile-1{
   width: 60%;
   height: 49.9%;
@@ -38,6 +54,106 @@
 .jq-datatiles .datatile-6{
   width: 50%;
 }
+
+.jq-datatiles .datatile-7{
+  width: 100%;
+  height: 49.9%;
+}
+
+.jq-datatiles .datatile-8{
+  width: 33.333333%;
+  height: 25%;
+}
+
+.jq-datatiles .datatile-9{
+  width: 66.666666%;
+  height: 100%;
+}
+
+.jq-datatiles .datatile-10{
+  width: 33.333333%;
+  height: 33.333333%;
+}
+
+/* Override Styles for 6 Tiles */
+
+.tile-ct-6 .datatile-1{
+  width: 60%;
+  height: 66.666666%;
+}
+
+.tile-ct-6 .datatile-5{
+  width: 50%;
+  height: 66.666666%;
+}
+
+.tile-ct-6 .datatile-6{
+  width: 50%;
+  height: 25%;
+}
+
+.tile-ct-6 .datatile-7{
+  height: 49.9%;
+}
+
+.tile-ct-4 .datatile-1{
+  width: 66.666666%;
+  height: 66.666666%;
+}
+
+.tile-ct-4 .datatile-3{
+  width: 33.333333%;
+  height: 66.666666%;
+}
+
+.tile-ct-4 .datatile-6{
+  width: 50%;
+  height: 33.333333%;
+}
+
+.tile-ct-4 .datatile-7{
+  height: 66.666666%;
+}
+
+.tile-ct-4 .datatile-8{
+  height: 33.333333%;
+}
+
+.tile-ct-2 .datatile-1{
+  width: 50%;
+  height: 100%;
+}
+
+.tile-ct-2 .datatile-2{
+    width: 100%;
+    height: 50%;
+}
+
+.tile-ct-2 .datatile-3{
+    width: 66.666666%;
+    height: 100%;
+}
+
+.tile-ct-2 .datatile-4{
+    width: 33.333333%;
+    height: 100%;
+}
+
+.tile-ct-2 .datatile-5{
+    height: 66.666666%;
+    width: 100%;
+}
+
+.tile-ct-2 .datatile-6{
+    height: 33.333333%;
+    width: 100%;
+}
+
+.tile-ct-1 .datatile-1{
+  width: 100%;
+  height: 100%;
+}
+
 
 @media screen and (max-width: 1024px){
 

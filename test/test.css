@@ -22,13 +22,13 @@ html,body {
   line-height: 100px;
 }
 
-.tile-0{background-color:#000;}
-.tile-1{background-color:#222;}
-.tile-2{background-color:#444;}
-.tile-3{background-color:#666;}
-.tile-4{background-color:#888;}
-.tile-5{background-color:#999;}
-.tile-6{background-color:#ccc;}
-.tile-7{background-color:#ddd;}
-.tile-8{background-color:#cecece;}
-.tile-9{background-color:#efefef;}
+.tile-no-0{background-color:#000;}
+.tile-no-1{background-color:#222;}
+.tile-no-2{background-color:#444;}
+.tile-no-3{background-color:#666;}
+.tile-no-4{background-color:#888;}
+.tile-no-5{background-color:#999;}
+.tile-no-6{background-color:#ccc;}
+.tile-no-7{background-color:#ddd;}
+.tile-no-8{background-color:#cecece;}
+.tile-no-9{background-color:#efefef;}
