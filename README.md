@@ -10,5 +10,4 @@ Here is an example of how to implement dataTiles into your HTML:
 # License
 This plugin is licensed under the [MIT License](LICENSE.txt)
 
-Copyright (c) 2014 [Joshua Miller](https://github.com/joshuamil)
-
+Copyright (c) 2014 [Joshua Miller](https://jo5h.com)

@@ -1,0 +1,17 @@
+
+  "name": "jquery-datatiles",
+  "version": "0.1.0",
+  "main": "./jquery.datatiles.js",
+  "ignore": [
+    "*.json",
+    "*.markdown",
+    "*.txt",
+    ".*",
+    "!LICENSE.txt",
+    "Gruntfile.js",
+    "test"
+  ],
+  "dependencies": {
+    "jquery": ">=1.7"
+  }
+}
