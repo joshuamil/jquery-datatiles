@@ -56,6 +56,7 @@
       };
 
       // TODO: Process each instance of the tile container
+      // TODO: Process an external feed file that defines the tile count and the content of each tile
 
       var container = this;
       var id = container.attr('id');

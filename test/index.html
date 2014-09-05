@@ -24,7 +24,15 @@
 
   <script>
   $(document).ready(function(event){
-    $('.jq-datatiles').datatiles();
+    $('#main').datatiles({
+      tiles:4,
+      layout:0
+    });
+
+    $('#secondary').datatiles({
+      tiles:10,
+      layout:'rand'
+    });
   });
   </script>
 
@@ -32,7 +40,11 @@
 <body>
 
   <!-- Enable DataTiles -->
-  <div class="container jq-datatiles" id="main" data-layout="" data-tiles="2">
+  <div class="container jq-datatiles" id="main">
+  </div>
+
+  <!-- Enable DataTiles -->
+  <div class="container jq-datatiles" id="secondary">
   </div>
 
 </body>
