@@ -26,6 +26,9 @@
   "files": [
     "CHANGELOG.md",
     "jquery.datatiles.js",
+    "jquery.datatiles.min.js",
+    "jquery.datatiles.css",
+    "jquery.datatiles.min.css",
     "README.md"
   ],
   "devDependencies": {
@@ -34,7 +37,9 @@
     "grunt-contrib-jshint": "^0.10.0",
     "grunt-contrib-uglify": "^0.5.1",
     "npm": "^1.4.25",
-    "install": "^0.1.7"
+    "install": "^0.1.7",
+    "grunt-contrib-csslint": "^0.2.0",
+    "grunt-contrib-cssmin": "^0.10.0"
   },
   "directories": {
     "test": "test"

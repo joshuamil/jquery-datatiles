@@ -23,12 +23,16 @@
         [6,6,5,4,4,4,4,3,3,3]
       ];
 
+      // TODO: Process each instance of the tile container
+
       var rand = Math.floor(Math.random() * (layouts.length));
+      var container = this;
+      var id = container.attr('id');
 
       // Define default params
       var settings = $.extend({
-         tiles: 10 // Sets the maximum number of tiles to display
-        ,layout: rand
+        tiles: 10, // Sets the maximum number of tiles to display
+        layout: rand
       }, options );
 
       // Get options from data-params
@@ -36,12 +40,6 @@
 
       // Ensure the layout chosen is valid
       settings.layout = (settings.layout<layouts.length&&settings.layout>=0)?settings.layout:rand;
-
-      var container = this;
-      var id = container.attr('id');
-      var tiles = "";
-
-      // Repeat for each tile container instance
 
       // Cycle through the tiles
       $.each(new Array(settings.tiles), function(n){
