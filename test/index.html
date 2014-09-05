@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="iso-8859-1">
+  <title>Testing jQuery DataTiles Plugin</title>
+
+  <style>
+
+    html,body {
+      margin: 0;
+      width: 100%;
+      height: 100%;
+      font: 13px Arial, sans-serif;
+    }
+
+    .container{
+      position: relative;
+      width: 100%;
+      height: 50%;
+      overflow: hidden;
+    }
+
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="colors.css">
+  <link rel="stylesheet" type="text/css" href="../datatiles.css">
+
+  <script>
+      (function() {
+          var verMatch = /v=([\w\.]+)/.exec(location.search),
+              version = verMatch && verMatch[1],
+              src;
+          if (version)
+              src = 'code.jquery.com/jquery-' + version;
+          else
+              src = 'code.jquery.com/jquery-git';
+          document.write('<script src="http://' + src + '.js"><\/script>');
+      })();
+  </script>
+
+  <script src="../jquery.datatiles.js"></script>
+
+  <script>
+  $(document).ready(function(event){
+    $('.jq-datatiles').datatiles();
+  });
+  </script>
+
+</head>
+<body>
+
+  <!--
+  <h1>Test the jQuery DataTiles Plugin</h1>
+  -->
+
+  <!-- Enable DataTiles -->
+  <div class="container jq-datatiles" id="main" data-layout="">
+  </div>
+
+  <!-- Enable DataTiles -->
+  <div class="container jq-datatiles" id="secondary">
+  </div>
+
+</body>
+</html>
